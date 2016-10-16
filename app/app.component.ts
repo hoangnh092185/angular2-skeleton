@@ -45,8 +45,3 @@ export class AppComponent {
 export class Album {
   constructor (public title: string, public artist: string, public released: number){ }
 }
-
-export class Task {
-  public done: boolean = false;
-  constructor(public description: string, public id: number){ }
-}
